@@ -1,18 +1,20 @@
+import { Link } from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
-import ItemListContainer from "../ItemListContainer/ItemListContainer";
 import "./NavBar.css";
 
 export default function NavBar() {
   return (
     <>
       <header>
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <h1>OLIVIA</h1>
+        <nav className="navbar navbar-expand-lg">
+          <div className="container-fluid">
+            <a className="navbar-brand" href="#">
+              <Link to="/">
+                <h1>OLIVIA</h1>
+              </Link>
             </a>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
@@ -20,33 +22,33 @@ export default function NavBar() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
-                    <button>NEW IN</button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <button>
+                      <Link to={"/"}>Productos</Link>
+                    </button>
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
-                    <button>WOMAN</button>
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <button>
+                      <li>
+                        <Link to={"/category/tops"}>Tops</Link>
+                      </li>
+                    </button>
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
-                    <button>GIRLS</button>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
-                    <button>HOME</button>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
-                    <button>SALE</button>
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <button>
+                      <li>
+                        <Link to={"/category/pantalones"}>Pantalones</Link>
+                      </li>
+                    </button>
                   </a>
                 </li>
               </ul>
