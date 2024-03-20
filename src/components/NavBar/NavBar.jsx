@@ -8,11 +8,11 @@ export default function NavBar() {
       <header>
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <button className="navbar-brand">
               <Link to="/">
                 <h1>OLIVIA</h1>
               </Link>
-            </a>
+            </button>
             <button
               className="navbar-toggler"
               type="button"
@@ -27,29 +27,19 @@ export default function NavBar() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    <button>
-                      <Link to={"/"}>Productos</Link>
-                    </button>
-                  </a>
+                  <button className="nav-link active" aria-current="page">
+                    <Link to={"/"}>Productos</Link>
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    <button>
-                      <li>
-                        <Link to={"/category/tops"}>Tops</Link>
-                      </li>
-                    </button>
-                  </a>
+                  <button className="nav-link active" aria-current="page">
+                    <Link to={"/category/tops"}>Tops</Link>
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    <button>
-                      <li>
-                        <Link to={"/category/pantalones"}>Pantalones</Link>
-                      </li>
-                    </button>
-                  </a>
+                  <button className="nav-link active" aria-current="page">
+                    <Link to={"/category/pantalones"}>Pantalones</Link>
+                  </button>
                 </li>
               </ul>
             </div>

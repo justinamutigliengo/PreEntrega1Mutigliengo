@@ -23,7 +23,7 @@ export default function ItemListContainer({ greeting }) {
     <>
       <div>
         <section>
-          <h1>Página del ítem {id}</h1>
+          <h1> {id}</h1>
           <h2 className="text-center">{greeting}</h2>
         </section>
         <section>

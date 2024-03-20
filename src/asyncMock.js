@@ -5,7 +5,7 @@ const products = [
     price: 25000,
     category: "tops",
     description: "Talles: XS, S, M, L",
-    image: "../public/images/top1.webp",
+    image: "../src/assets/images/top1.webp",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const products = [
     price: 20000,
     category: "tops",
     description: "Talles: XS, S, M, L",
-    image: "../public/images/top2.webp",
+    image: "../src/assets/images/top2.webp",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const products = [
     price: 22000,
     category: "tops",
     description: "Talles: XS, S, M, L",
-    image: "../public/images/top3.webp",
+    image: "../src/assets/images/top3.webp",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const products = [
     price: 23000,
     category: "tops",
     description: "Talles: XS, S, M, L",
-    image: "../public/images/top4.webp",
+    image: "../src/assets/images/top1.webp",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const products = [
     price: 35000,
     category: "pantalones",
     description: "Talles: XS, S, M, L",
-    image: "../public/images/pantalon1.webp",
+    image: "../src/assets/images/pantalon1.webp",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const products = [
     price: 34000,
     category: "pantalones",
     description: "Talles: XS, S, M, L",
-    image: "../public/images/pantalon2.webp",
+    image: "../src/assets/images/pantalon2.webp",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const products = [
     price: 32400,
     category: "pantalones",
     description: "Talles: XS, S, M, L",
-    image: "../public/images/pantalon3.webp",
+    image: "../src/assets/images/pantalon3.webp",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const products = [
     price: 32700,
     category: "pantalones",
     description: "Talles: XS, S, M, L",
-    image: "../public/images/pantalon4.jpg",
+    image: "../src/assets/images/pantalon4.jpg",
   },
 ];
 
